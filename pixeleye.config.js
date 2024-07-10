@@ -1,6 +1,6 @@
 /** @type {import('pixeleye').Config} */
 const config = {
-    token: "pxi__ZFH3Yr_Q_f-mLbBUZghCqiZo5y1fQlFa:h6ELAb6SoY65QjqKW4qVJ",
+    token: "pxi__SeHG9N2zQUGIAvwf-OruZL4hMLPYdry8:c3c1YVE8xQ-L_hcYKBIpn",
     // or
     // token: process.env.PIXELEYE_PROJECT_TOKEN,
     // ...
