@@ -18,5 +18,8 @@
     "@pixeleye/cypress": "^0.6.5",
     "pixeleye": "^0.8.8",
     "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
