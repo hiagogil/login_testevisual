@@ -34,7 +34,7 @@
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #740f0f;
             border-radius: 5px;
             font-size: 16px;
         }
@@ -42,7 +42,7 @@
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            background-color: #007bff;
+            background-color: #16de0fa5;
             color: white;
             border: none;
             border-radius: 5px;
@@ -50,19 +50,24 @@
             cursor: pointer;
         }
         .login-container input[type="button"]:hover {
-            background-color: #0056b3;
+            background-color: #27c125;
         }
     </style>
 </head>
-<body>
-    <div class="login-container">
+<body >  
+       <div class="login-container">
         <img src="https://via.placeholder.com/100" alt="User Image">
         <h1>Login</h1>
         <label for="log">Login</label>
         <input id="log" type="text" name="login">
         <label for="senha">Senha</label>
         <input id="senha" type="password" name="senha">
-        <input id="ok" type="button" name="Logar" value="Logar">
+        <input id="ok" onclick="color()" type="button" name="Logar" value="Logar">
     </div>
+    <script>
+   function color () {
+    window.document.getElementById('ok').style.backgroundColor = "#740f0f"
+   }
+    </script>
 </body>
 </html>

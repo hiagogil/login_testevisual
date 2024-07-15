@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "pixeleye": "pixeleye exec -- cypress run"
+    "test": "npm run pixeleye",
+    "pixeleye": "pixeleye exec -- cypress run",
+    "start-server": "http-server -p 8080"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@pixeleye/cypress": "^0.6.5",
-    "pixeleye": "^0.8.8"
+    "pixeleye": "^0.8.8",
+    "http-server": "^14.1.1"
   }
 }
